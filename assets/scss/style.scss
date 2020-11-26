@@ -1,0 +1,140 @@
+.navbar {
+  background: black;
+
+  .nav-item {
+    padding-left: 1em;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+}
+.carousel-item {
+  height: 450px;
+}
+.carousel-img-1 {
+  background: url('../img/image1.jpeg');
+}
+.carousel-img-2 {
+  background: url('../img/image2.jpeg');
+}
+.carousel-img-3 {
+  background: url('../img/image3.jpeg');
+}
+
+#homeicons {
+  .fa {
+    font-size: 50px;
+  }
+}
+#start {
+ 
+  background: url('../img/bg1.jpeg');
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+
+  .dark-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7)
+  
+    
+  }
+}
+#video {
+  background: url('../img/people.jpeg');
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: top top;
+position: relative;
+
+.fa {
+  font-size: 50px;
+  color: red;
+}
+  .dark-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+  }
+}
+#gallery {
+  img {
+    min-height: 250px;
+  }
+}
+
+#sesh {
+  background: black;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0;
+  }
+}
+#about {
+  background: url('../img/image2.jpeg');
+  min-height: 250px;
+  background-position: center center;
+  background-size: cover;
+
+ 
+}
+#wedo {
+  img {
+    width: 350px;
+    height: 350px;
+  }
+}
+#icon {
+  .fa {
+    font-size: 50px;
+  }
+}
+#services {
+  background: url('../img/image3.jpeg');
+  min-height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+#blog {
+  background: url('../img/image1.jpeg');
+  min-height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+#contact {
+  background: url('../img/image2.jpeg');
+  min-height: 250px;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+@media (max-width:480px) {
+  .carousel {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+  #start {
+    min-height: 350px;
+  }
+}
+ 
+@media (max-width:350px) {
+  #start {
+    min-height: 400px;
+  }
+}
